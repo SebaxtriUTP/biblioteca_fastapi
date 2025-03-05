@@ -1,5 +1,12 @@
 # biblioteca_fastapi
 
+## 👨‍💻 Desarrollo Realizado Por  
+
+**Ing. Juan Sebastián Gómez Díaz**  
+*Ingeniero de Sistemas y Computación*  
+📍 *Universidad Tecnológica de Pereira*  
+
+
 # Biblioteca API - Guía de Instalación y Ejecución
 
 Este proyecto es una API desarrollada con FastAPI, PostgreSQL y Docker para gestionar una biblioteca. Sigue estos pasos para instalar y ejecutar la aplicación correctamente.
@@ -150,4 +157,4 @@ http://127.0.0.1:8000/redoc
 - **Hashing de contraseñas:** Usar **bcrypt o Argon2**.
 - **Validaciones estrictas:** Definir esquemas con **Pydantic y FastAPI Depends**.
 
-
+ 

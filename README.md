@@ -158,3 +158,8 @@ http://127.0.0.1:8000/redoc
 - **Validaciones estrictas:** Definir esquemas con **Pydantic y FastAPI Depends**.
 
  
+## Limitaciones  
+
+Durante el desarrollo de la prueba técnica, no se logró completar la implementación de las pruebas unitarias dentro del plazo establecido. Sin embargo, la arquitectura del proyecto permite su integración fácilmente en el futuro.  
+
+Se recomienda utilizar **pytest** para la ejecución de pruebas unitarias y de integración, asegurando así la calidad del código y el correcto funcionamiento de los endpoints.  

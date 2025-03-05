@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  fastapi_app:
+    build: .
+    volumes:
+      - ./app:/app  # Asegúrate de montar correctamente la carpe ta 'app'
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app  # Esto puede ser útil si tienes problemas con imports
+    depends_on:
+      - fastapi_postgres
+
+  fastapi_postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: biblioteca
+    ports:
+      - "5432:5432"
